@@ -16,7 +16,7 @@ function setup() {
 function modelLoaded() {
     console.log("Model Loaded!");
     statuss = true;
-    Detector.detect(img, gotResult);
+    objectDetector.detect(img, gotResult);
 }
 
 
